@@ -50,3 +50,10 @@
 .insideLastFlex{
     margin-left:auto;
 }
+a{
+    color:white;
+    font-size:14px;
+}
+.lastContentMenu{
+    margin-left:10px;
+}
