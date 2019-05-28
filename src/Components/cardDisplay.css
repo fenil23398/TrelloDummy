@@ -1,0 +1,81 @@
+.mianContainer{
+    display:flex;
+    flex-direction: column;
+   
+    background:#DFE1E6;
+    width:100%;
+    border:1px solid #DFE1E6;
+    border-radius:5px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.insideContent{
+    margin-left:7px;
+    margin-right:7px;
+    margin-top:10px;
+    width:85%;
+    height:30px;
+    text-align: center;
+    background:white; 
+   
+}
+.makebox{
+  
+    border:1px solid white;
+    border-radius: 5px;
+    padding-left:10px;
+    padding-right:10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+   
+}
+
+.forTitle{
+ 
+    margin-top:7px;
+    margin-bottom:-2px;
+    font-weight: bold;
+   
+}
+.insidebutton{
+    padding-left:15px;
+    margin-top:10px;
+    width:100%;
+    height:30px;
+    text-align: center;
+    background:#DFE1E6;
+    border:none;
+    font-size: 15px;
+    display:flex;
+    justify-content: left;
+}
+
+.insideArea{
+    margin-top:10px;
+    margin-left:7px;
+    width:92%;
+    border:1px solid white;
+    border-radius: 5px;
+}
+.insidebutton:hover{
+    background-color: #C5C8D1;
+}
+.insidebuttonToAdd{
+    margin-left:7px;
+    margin-top:5px;
+    background:#4FBF6A;
+    height:40px;
+}
+.crossDesign{
+    margin-left: 2px;
+    font-size:20px;
+    background:#DFE1E6; 
+    border:none;
+}
+.crossDesign:hover{
+  
+    border:none;
+}

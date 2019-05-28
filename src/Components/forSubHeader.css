@@ -1,0 +1,52 @@
+.mainSubHeaderConatiner{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    height:45px;
+    font-size:14px;
+    color:white;
+}
+
+.insideSubHederFlex{
+    margin-left:1%;
+   
+}
+.insideSubHederFlexLimited{
+    margin-left:10px;
+}
+
+.forNameDisplay{
+    font-weight:900;
+    font-size: 17px;
+}
+
+.pipeMargin{
+    margin-left:15px;
+}
+
+.buttonletter{
+    font-size:14px;
+    padding-left:5px;
+}
+.button5 {border-radius: 50%;}
+.buttondes {
+  
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    height:25px;
+    width:30px;
+  }
+
+.buttonInvite{
+    margin-left:8px;
+    height:33px;
+    background: #358549;
+    color:white;
+}
+.insideLastFlex{
+    margin-left:auto;
+}

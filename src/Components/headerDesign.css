@@ -1,0 +1,57 @@
+.mainHeaderConatiner{
+    display:flex;
+    flex-direction: row;
+    background: #42A35A;
+    align-items:center;
+    height:39px;
+}
+.insideHederFlex{
+    margin-left:2px;
+    margin-right:3px;
+}
+
+.insideHederFlexRight{
+    margin-left:auto;
+}
+
+
+.insideHederFlexRightNext{
+    margin-right:2px;
+    margin-left:3px;
+}
+.insideHeaderBetween{
+    margin-left:auto;
+    margin-right: auto;
+    font-size:24px;
+    font-family:cursive;
+    
+}
+.homeIcon{
+    font-size:18px;
+    background-color: white;
+}
+.boardIcon{
+    font-size:18px;
+}
+.buttonletter{
+    font-size:14px;
+    padding-left:5px;
+}
+.button5 {border-radius: 50%;}
+.button {
+    background-color:darkgray;
+    border: none;
+    color: white;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    height:30px;
+    width:30px;
+  }
+
+  .insideHeaderBetween:hover{
+   color:white; 
+}
+  

@@ -1,0 +1,15 @@
+.boardDisplayContainer{
+    display: flex;
+    flex-direction:row;
+}
+
+.insideContainerB{
+    margin-left:0.5%;
+    width:15%;
+}
+
+.forBackgroundColor{
+    height:100vh;
+    background: #4FBF6A;
+  
+}
