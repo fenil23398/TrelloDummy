@@ -8,25 +8,25 @@ class subHeader extends Component {
         <div className="insideSubHederFlex forNameDisplay">Name</div>
 
         <div className="insideSubHederFlex">
-          <i class="fa fa-star-o" />
+          <i className="fa fa-star-o" />
         </div>
         <span className="pipeMargin">|</span>
 
         <div className="insideSubHederFlexLimited">
-          <i class="fa fa-group" /> Team Visible
+          <i className="fa fa-group" /> Team Visible
         </div>
         <span className="pipeMargin">|</span>
         <div className="insideSubHederFlexLimited">
-          <button class="buttondes button5">F</button>
+          <button className="buttondes button5">F</button>
           <span>
-            <button class="buttonInvite">Invite</button>
+            <button className="buttonInvite">Invite</button>
           </span>
         </div>
 
         <div className="insideLastFlex">
           <a href="#">
-            <i class="fa fa-ellipsis-h" />
-            <span class="lastContentMenu">Show Menu</span>
+            <i className="fa fa-ellipsis-h" />
+            <span className="lastContentMenu">Show Menu</span>
           </a>
         </div>
       </div>

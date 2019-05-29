@@ -19,7 +19,7 @@
     height:30px;
     text-align: center;
     background:white; 
-   
+   position: relative;
 }
 .makebox{
   
@@ -79,3 +79,25 @@
   
     border:none;
 }
+.hoverButton{
+    position: absolute;
+    display:none;
+}
+.hoverUpdate{
+    position: absolute;
+    display:none;
+}
+
+.insideContent:hover .hoverButton{
+    display:block;
+    top:3;
+    left:85%;
+}
+
+.insideContent:hover .hoverUpdate{
+    display:block;
+    top:3;
+    left:70%;
+}
+
+

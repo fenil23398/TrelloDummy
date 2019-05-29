@@ -17,13 +17,13 @@ class header extends Component {
       <div className="mainHeaderConatiner">
         <div className="insideHederFlex">
           <button className="homeIcon">
-            <i class="fa fa-home" aria-hidden="true" />
+            <i className="fa fa-home" aria-hidden="true" />
           </button>
         </div>
         <div className="insideHederFlex">
           <button className="boardIcon">
-            <i class="fa fa-calendar-times-o" aria-hidden="true" />{" "}
-            <span class="buttonletter">Boards</span>
+            <i className="fa fa-calendar-times-o" aria-hidden="true" />{" "}
+            <span className="buttonletter">Boards</span>
           </button>
         </div>
         <div className="insideHederFlex">
@@ -38,28 +38,28 @@ class header extends Component {
         </div>
         <div className="insideHeaderBetween">
           <span>
-            <i class="fa fa-calendar-times-o" aria-hidden="true" />
+            <i className="fa fa-calendar-times-o" aria-hidden="true" />
           </span>
           Trello
         </div>
 
         <div className="insideHederFlexRight">
           <button className="homeIcon">
-            <i class="fa fa-plus" aria-hidden="true" />
+            <i className="fa fa-plus" aria-hidden="true" />
           </button>
         </div>
         <div className="insideHederFlexRightNext">
           <button className="homeIcon">
-            <i class="fa fa-info-circle" aria-hidden="true" />
+            <i className="fa fa-info-circle" aria-hidden="true" />
           </button>
         </div>
         <div className="insideHederFlexRightNext">
           <button className="homeIcon">
-            <i class="fa fa-bell" aria-hidden="true" />
+            <i className="fa fa-bell" aria-hidden="true" />
           </button>
         </div>
         <div className="insideHederFlexRightNext">
-          <button class="button button5">F</button>
+          <button className="button button5">F</button>
         </div>
       </div>
     );
