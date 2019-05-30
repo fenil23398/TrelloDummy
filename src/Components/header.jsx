@@ -3,16 +3,7 @@ import "./headerDesign.css";
 class header extends Component {
   state = {};
   render() {
-    let styles = {
-      backgroundImage: "url('/images/search.svg')",
-        // backgroundPosition: "8px 12px",
-      backgroundRepeat: "no-repeat",
-      padding: "15px 20px 12px 40px",
-      border: "1px solid #ddd",
-      height: "5px",
-      marginBottom: "2px"
-      //   marginTop:"10px",
-    };
+   
     return (
       <div className="mainHeaderConatiner">
         <div className="insideHederFlex">
@@ -29,7 +20,7 @@ class header extends Component {
         <div className="insideHederFlex">
           <input
             type="text"
-            style={styles}
+            className="serachDesign"
             id="myInput"
             onKeyUp={() => this.myfunction()}
             placeholder="Search for names.."

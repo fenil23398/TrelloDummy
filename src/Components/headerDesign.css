@@ -54,4 +54,16 @@
   .insideHeaderBetween:hover{
    color:white; 
 }
-  
+.serachDesign{
+    background-Image: url('/images/search.svg');
+        /* // backgroundPosition: "8px 12px", */
+      background-Repeat: no-repeat;
+      padding: 15px 20px 12px 40px;
+      border: 1px solid #ddd;
+      height: 5px;
+      margin-Bottom: 2px;
+      width:45%;
+}
+.serachDesign:hover{
+    width:95%;
+}
