@@ -43,7 +43,6 @@ class boardDisplay extends Component {
     return (
       <div className="forBackgroundColor">
         <div>
-          {/* <h2>{this.state.secondList[0].list.length}</h2> */}
           <Header />
         </div>
         <div>
