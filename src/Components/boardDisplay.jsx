@@ -40,6 +40,8 @@ class boardDisplay extends Component {
     });
   }
   render() {
+    console.log(this.state.firstList);
+     
     return (
       <div className="forBackgroundColor">
         <div>

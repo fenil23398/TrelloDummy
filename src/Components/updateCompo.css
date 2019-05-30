@@ -42,7 +42,7 @@
   select:hover{
    background:lightcyan;
   }
-  h3{
+  .alignCenter{
     text-align: center;
   }
   .rowElement{
@@ -69,4 +69,14 @@
 .crossDesign:hover{
   
     border:none;
+}
+.makeboxUpdate{
+  
+  border:1px solid black;
+  border-radius: 5px;
+  padding-left:10px;
+  padding-right:10px;
+  margin-left:20%;
+  margin-right:20%
+  
 }
