@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 class detailCard extends Component {
     state = {  }
     render() { 
-        return ;
+        const { params } = this.props.match;
+        return <h1>{params.id}</h1>;
     }
 }
  

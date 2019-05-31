@@ -34,7 +34,8 @@ class firstClass extends Component {
     });
   };
   showDetail=(name)=>{
-    this.props.history.push('/getHeader');
+    console.log(name);
+    this.props.history.push('/detailCardDisplay/'+name);
    
   }
   deleteList = name => {
@@ -53,7 +54,7 @@ class firstClass extends Component {
       <div className="mianContainer">
         <p className="forTitle">{this.props.title}</p>
         {this.list[0].list.map(name => (
-          <div className="insideContent makebox" onClick={this.showDetail}>
+          <div className="insideContent makebox" onClick={()=>this.showDetail(name.name)}>
             <p>{name.name} </p>
             <button
               onClick={() => this.deleteList(name.name)}
@@ -102,4 +103,4 @@ class firstClass extends Component {
   }
 }
 
-export default firstClass;
+export default withRouter(firstClass);
