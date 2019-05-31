@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./headerDesign.css";
+import { Link } from 'react-router-dom'
 class header extends Component {
   state = {};
   render() {
@@ -7,15 +8,19 @@ class header extends Component {
     return (
       <div className="mainHeaderConatiner">
         <div className="insideHederFlex">
-          <button className="homeIcon">
-            <i className="fa fa-home" aria-hidden="true" />
+        <Link to='/getHeader'>
+          <button className="homeIcon" >
+         <i className="fa fa-home" aria-hidden="true" />
           </button>
+          </Link>
         </div>
         <div className="insideHederFlex">
+        <Link to='/'>
           <button className="boardIcon">
             <i className="fa fa-calendar-times-o" aria-hidden="true" />{" "}
             <span className="buttonletter">Boards</span>
           </button>
+          </Link>
         </div>
         <div className="insideHederFlex">
           <input

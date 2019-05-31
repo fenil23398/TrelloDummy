@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./cardDisplay.css";
+import { withRouter } from 'react-router-dom';
+
 var name, id;
 class firstClass extends Component {
   state = {
@@ -10,6 +12,7 @@ class firstClass extends Component {
   constructor(props) {
     super(props);
     this.list = this.props.data;
+    this.showDetail = this.showDetail.bind(this)
   }
 
   changeFlag = () => {
@@ -30,7 +33,10 @@ class firstClass extends Component {
       i: 0
     });
   };
-
+  showDetail=(name)=>{
+    this.props.history.push('/getHeader');
+   
+  }
   deleteList = name => {
     console.log("gfg", name);
     var tmpArr = this.list[0].list.filter(
@@ -47,7 +53,7 @@ class firstClass extends Component {
       <div className="mianContainer">
         <p className="forTitle">{this.props.title}</p>
         {this.list[0].list.map(name => (
-          <div className="insideContent makebox">
+          <div className="insideContent makebox" onClick={this.showDetail}>
             <p>{name.name} </p>
             <button
               onClick={() => this.deleteList(name.name)}
